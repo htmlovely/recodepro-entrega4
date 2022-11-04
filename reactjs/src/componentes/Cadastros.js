@@ -1,23 +1,10 @@
-import amsterdam from '../imgs/destinations/amsterdam.jpg';
-import bangkok from '../imgs/destinations/bangkok.jpg';
-import bariloche from '../imgs/destinations/bariloche.jpg';
-import bsas from '../imgs/destinations/buenos-aires.jpg';
-import cancun from '../imgs/destinations/cancun.png';
-import recife from '../imgs/destinations/cidade-do-cabo.jpg';
-import jampa from '../imgs/destinations/joao-pessoa.jpg';
-import lisboa from '../imgs/destinations/lisboa.jpg';
-import machupicchu from '../imgs/destinations/machu-picchu.jpg';
-import santorini from '../imgs/destinations/santorini.jpg';
-import sp from '../imgs/destinations/sp-sp.jpg';
-import newyork from '../imgs/destinations/new-york.jpg';
-import milao from '../imgs/destinations/milao.jpg';
-import rio from '../imgs/destinations/rio-de-janeiro.jpg';
-import paris from '../imgs/destinations/paris.jpg';
-import moscou from '../imgs/destinations/moscow.jpg';
-import trancoso from '../imgs/destinations/trancoso-bahia.jpg';
-import vancouver from '../imgs/destinations/vancouver.jpg';
+
+import Recife from '../reactjs/src/imgs/destinations/recife.png';
+import SaoLuis from '../reactjs/src/imgs/destinations/sao-luis';
+import JoaoPessoa from '../reactjs/src/imgs/destinations/joao-pessoa.jpg';
+import Teresina from '../reactjs/src/imgs/destinations/Teresina-Piauí.jpg';
 import './Cadastros.css';
-import '../index.css';
+import '../style.css';
 
 const Destinos = () => {
     return (
@@ -31,13 +18,11 @@ const Destinos = () => {
                         <input type="radio" id="ida" name="drone" value="ida" />
                         <label for="ida">Só ida</label>
                     </div>
-
-                  
                     <div>
                         <label for="passageiros" id="passageiros"> Passageiros: </label>
                         <input type="number" name="passageiros" id="passageiros" />
                         <div>
-
+                            
                         </div>
                         <br />
                         <br />
@@ -73,59 +58,18 @@ const Destinos = () => {
                 <div class="painel2">
                     <div class="boxImgs">
                         <div class="imgsDestinos">
-                            <img src={sp} alt="São Paulo - Brasil" />
+                            <img src={Recife} alt="Recife - Pernambuco" />
                         </div>
                         <div class="imgsDestinos">
-                            <img src={trancoso} alt="Trancoso - Brasil" />
+                            <img src={Teresina} alt="Teresina - Píaui" />
                         </div>
                         <div class="imgsDestinos">
-                            <img src={lisboa} alt="Lisboa - Portugal" />
+                            <img src={JoaoPessoa} alt="João Pessoa - Paraíba" />
                         </div>
                         <div class="imgsDestinos">
-                            <img src={cancun} alt="Cancún - México" />
+                            <img src={SaoLuis} alt="São Luis - Maranhão" />
                         </div>
-                        <div class="imgsDestinos">
-                            <img src={santorini} alt="Santorini - Grécia" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={recife} alt="Cape Town - África do Sul" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={bariloche} alt="Bariloche - Argentina" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={amsterdam} alt="Amsterdam - Holanda" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={bsas} alt="Buenos Aires - Argentina" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={jampa} alt="João Pessoa - Brasil" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={machupicchu} alt="Machu Picchu - Peru" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={newyork} alt="Nova Iorque - Estados Unidos" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={milao} alt="Milão - Itália" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={rio} alt="Rio de Janeiro - Brasil" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={paris} alt="Paris - França" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={moscou} alt="Moscou - Rússia" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={bangkok} alt="Bangkok - Tailândia" />
-                        </div>
-                        <div class="imgsDestinos">
-                            <img src={vancouver} alt="Vancouver - Canadá" />
-                        </div>
+
                     </div>
                 </div>
             </div>
