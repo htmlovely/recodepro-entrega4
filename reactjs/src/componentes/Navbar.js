@@ -7,10 +7,10 @@ function Navbar() {
                 <nav class="menu">
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/">Bem-Vindo</a>
                         </li>
                         <li>
-                            <a href="/destinos">Destinos</a>
+                            <a href="/Cadastros">Cadastros</a>
                         </li>
                         <li>
                             <a href="/contato">Contato</a>
