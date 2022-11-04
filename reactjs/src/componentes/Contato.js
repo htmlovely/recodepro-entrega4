@@ -17,11 +17,6 @@ const Contato = () => {
                         (81) 3227-9498
                     </a>
                 </div>
-                <div class="divContato">
-                    <form>
-                        <h3>Fale conosco</h3>
-                    </form>
-                </div>
             </div>
         </div>
   );
